@@ -1,0 +1,64 @@
+.restaurant {
+  margin-top: 127px;
+
+  &__title {
+    margin: 12px 0 0 -3px;
+  }
+
+  &__span1 {
+    position: relative;
+    margin-left: 5px;
+    color: transparent;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 37px;
+      left: -7px;
+      width: 62px;
+      height: 61px;
+      background-image: url("../images/soup.png");
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      top: 17px;
+      left: -29px;
+      width: 182px;
+      height: 142px;
+      background-image: url("../images/salad.png");
+    }
+  }
+
+  &__span2 {
+    position: relative;
+    margin-left: 8px;
+    color: transparent;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 41px;
+      left: 1px;
+      width: 52px;
+      height: 52px;
+      background-image: url("../images/smile.svg");
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      top: 41px;
+      right: 4px;
+      width: 52px;
+      height: 52px;
+      background-image: url("../images/smile.svg");
+    }
+  }
+
+  &__text {
+    width: 497px;
+    margin-top: 14px;
+  }
+}

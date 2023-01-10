@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__logo-container {
+    display: flex;
+  }
+
+  &__title {
+    position: relative;
+    top: -3px;
+    left: 6px;
+  }
+
+  &__links-container {
+    display: flex;
+    gap: 62px;
+    margin-top: 5px;
+    align-items: center;
+  }
+}
