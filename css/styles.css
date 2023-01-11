@@ -57,18 +57,18 @@ body {
 }
 
 .button {
-  padding: 16px 32px 16px 33px;
+  padding: 16px 35px 16px 33px;
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   text-transform: capitalize;
+  text-decoration: none;
   color: #ffffff;
   background: #ff9401;
   border: 0;
   border-radius: 31px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header {
@@ -156,5 +156,33 @@ body {
 .restaurant__text {
   width: 497px;
   margin-top: 14px;
+}
+
+.restaurant__button {
+  display: inline-block;
+  margin-top: 50px;
+  box-shadow: 0px 20px 40px rgba(255, 148, 1, 0.2);
+}
+
+.restaurant__socials {
+  display: flex;
+  gap: 30px;
+  width: 165px;
+  margin-top: 62px;
+}
+
+.restaurant__social {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 10px 40px rgba(255, 148, 1, 0.2);
+}
+
+.restaurant__social-link {
+  margin: 0 auto;
 }
 /*# sourceMappingURL=styles.css.map */

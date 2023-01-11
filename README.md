@@ -1,4 +1,4 @@
-# Studio Design Landing
+# A Restaurant Landing
 
 This site was built using [GitHub Pages](https://zweroboy1.github.io/restaurant-landing/).
 
