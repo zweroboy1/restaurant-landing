@@ -94,6 +94,7 @@ body {
 }
 
 .restaurant {
+  position: relative;
   margin-top: 127px;
 }
 
@@ -184,5 +185,49 @@ body {
 
 .restaurant__social-link {
   margin: 0 auto;
+}
+
+.restaurant__pictures {
+  position: absolute;
+  top: 0;
+}
+
+.restaurant__img {
+  position: absolute;
+}
+
+.restaurant__img:nth-child(1) {
+  top: -62px;
+  left: 347px;
+}
+
+.restaurant__img:nth-child(2) {
+  top: -37px;
+  left: 631px;
+}
+
+.restaurant__img:nth-child(3) {
+  top: 302px;
+  left: 562px;
+}
+
+.restaurant__img:nth-child(4) {
+  top: 405px;
+  left: 785px;
+}
+
+.restaurant__img:nth-child(5) {
+  top: 292px;
+  left: 1003px;
+}
+
+.restaurant__shadow {
+  position: absolute;
+  top: -7px;
+  left: 678px;
+  width: 438px;
+  height: 432px;
+  border-radius: 50%;
+  box-shadow: 0px 20px 40px rgba(255, 169, 0, 0.15);
 }
 /*# sourceMappingURL=styles.css.map */
