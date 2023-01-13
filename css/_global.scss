@@ -25,7 +25,6 @@ body {
   width: 1600px;
   min-height: 4927px;
   margin: 0 auto;
-  padding: 50px 214px 0 215px;
   background-color: #fff;
 }
 
@@ -53,6 +52,22 @@ body {
   font-size: 20px;
   line-height: 32px;
   color: #3f3232;
+}
+
+.orange-text {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ff9401;
+}
+
+.h2 {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 60px;
+  color: #2e2e2e;
 }
 
 .button {

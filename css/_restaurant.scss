@@ -1,7 +1,7 @@
 .restaurant {
   position: relative;
-
-  margin-top: 127px;
+  margin-top: 77px;
+  padding: 50px 214px 129px 215px;
 
   &__title {
     margin: 12px 0 0 -3px;
@@ -101,34 +101,34 @@
     position: absolute;
 
     &:nth-child(1) {
-      top: -62px;
+      top: -12px;
       left: 347px;
     }
 
     &:nth-child(2) {
-      top: -37px;
+      top: 13px;
       left: 631px;
     }
 
     &:nth-child(3) {
-      top: 302px;
+      top: 352px;
       left: 562px;
     }
 
     &:nth-child(4) {
-      top: 405px;
+      top: 455px;
       left: 785px;
     }
 
     &:nth-child(5) {
-      top: 292px;
+      top: 342px;
       left: 1003px;
     }
   }
 
   &__shadow {
     position: absolute;
-    top: -7px;
+    top: 43px;
     left: 678px;
     width: 438px;
     height: 432px;
