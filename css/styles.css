@@ -6,7 +6,20 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-ExtraBold.woff");
+  font-weight: 800;
+  src: url("../fonts/Gilroy-Extrabold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 700;
+  src: url("../fonts/Gilroy-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  src: url("../fonts/Gilroy-Semibold.woff2");
 }
 
 @font-face {
@@ -116,7 +129,7 @@ body {
 }
 
 .restaurant__title {
-  margin: 12px 0 0 -3px;
+  margin: 19px 0 0 -3px;
 }
 
 .restaurant__span1 {
@@ -128,7 +141,7 @@ body {
 .restaurant__span1::before {
   position: absolute;
   content: "";
-  top: 37px;
+  top: 19px;
   left: -7px;
   width: 62px;
   height: 61px;
@@ -138,7 +151,7 @@ body {
 .restaurant__span1::after {
   position: absolute;
   content: "";
-  top: 17px;
+  top: -1px;
   left: -29px;
   width: 182px;
   height: 142px;
@@ -154,7 +167,7 @@ body {
 .restaurant__span2::before {
   position: absolute;
   content: "";
-  top: 41px;
+  top: 23px;
   left: 1px;
   width: 52px;
   height: 52px;
@@ -164,7 +177,7 @@ body {
 .restaurant__span2::after {
   position: absolute;
   content: "";
-  top: 41px;
+  top: 23px;
   right: 4px;
   width: 52px;
   height: 52px;
@@ -173,7 +186,7 @@ body {
 
 .restaurant__text {
   width: 497px;
-  margin-top: 14px;
+  margin-top: 7px;
 }
 
 .restaurant__button {
@@ -256,7 +269,15 @@ body {
 }
 
 .about__text-container {
-  margin: 142px 240px 0 0;
+  margin: 143px 240px 0 0;
   width: 426px;
+}
+
+.about__title {
+  margin-top: 27px;
+}
+
+.about__text {
+  margin: 18px 0 0 2px;
 }
 /*# sourceMappingURL=styles.css.map */

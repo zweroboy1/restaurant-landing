@@ -5,7 +5,15 @@
   background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
 
   &__text-container {
-    margin: 142px 240px 0 0;
+    margin: 143px 240px 0 0;
     width: 426px;
+  }
+
+  &__title {
+    margin-top: 27px;
+  }
+
+  &__text {
+    margin: 18px 0 0 2px;
   }
 }

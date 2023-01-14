@@ -6,7 +6,20 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../fonts/Gilroy-ExtraBold.woff");
+  font-weight: 800;
+  src: url("../fonts/Gilroy-Extrabold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 700;
+  src: url("../fonts/Gilroy-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  src: url("../fonts/Gilroy-Semibold.woff2");
 }
 
 @font-face {

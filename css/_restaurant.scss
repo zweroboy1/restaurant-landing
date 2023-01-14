@@ -4,7 +4,7 @@
   padding: 50px 214px 129px 215px;
 
   &__title {
-    margin: 12px 0 0 -3px;
+    margin: 19px 0 0 -3px;
   }
 
   &__span1 {
@@ -15,7 +15,7 @@
     &::before {
       position: absolute;
       content: "";
-      top: 37px;
+      top: 19px;
       left: -7px;
       width: 62px;
       height: 61px;
@@ -25,7 +25,7 @@
     &::after {
       position: absolute;
       content: "";
-      top: 17px;
+      top: -1px;
       left: -29px;
       width: 182px;
       height: 142px;
@@ -41,7 +41,7 @@
     &::before {
       position: absolute;
       content: "";
-      top: 41px;
+      top: 23px;
       left: 1px;
       width: 52px;
       height: 52px;
@@ -51,7 +51,7 @@
     &::after {
       position: absolute;
       content: "";
-      top: 41px;
+      top: 23px;
       right: 4px;
       width: 52px;
       height: 52px;
@@ -61,7 +61,7 @@
 
   &__text {
     width: 497px;
-    margin-top: 14px;
+    margin-top: 7px;
   }
 
   &__button {
