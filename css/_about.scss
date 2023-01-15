@@ -1,8 +1,43 @@
 .about {
+  position: relative;
   display: flex;
   flex-direction: row-reverse;
   height: 686px;
   background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+
+  &__course {
+    position: absolute;
+    top: 106px;
+    left: 263px;
+  }
+
+  &__course-bg {
+    position: absolute;
+    top: 87px;
+    left: 242px;
+    filter: drop-shadow(0px 40px 80px rgba(255, 148, 1, 0.15));
+  }
+
+  &__ketchup {
+    position: absolute;
+    top: 72px;
+    left: 5px;
+    filter: drop-shadow(0px 10px 20px rgba(255, 148, 1, 0.15));
+  }
+
+  &__play-bg {
+    position: absolute;
+    top: 371px;
+    left: 720px;
+    filter: drop-shadow(0px 10px 20px rgba(255, 148, 1, 0.15));
+    cursor: pointer;
+  }
+
+  &__play {
+    position: absolute;
+    top: 401px;
+    left: 754px;
+  }
 
   &__text-container {
     margin: 143px 240px 0 0;
@@ -21,6 +56,5 @@
     margin: 50px 0 0 2px;
     padding-left: 30px;
     padding-right: 30px;
-    box-shadow: 0px 20px 40px rgba(255, 148, 1, 0.15);
   }
 }
