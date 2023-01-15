@@ -25,6 +25,13 @@
 @font-face {
   font-family: "Circular Std";
   src: url("../fonts/CircularStd-Book.woff2");
+  font-weight: 450;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Medium.woff");
+  font-weight: 500;
 }
 
 html {
@@ -84,7 +91,8 @@ body {
 }
 
 .button {
-  padding: 16px 35px 16px 33px;
+  display: inline-block;
+  padding: 17px 32px 15px 33px;
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 500;
@@ -96,4 +104,5 @@ body {
   background: #ff9401;
   border: 0;
   border-radius: 31px;
+  box-shadow: 0px 20px 40px rgba(255, 148, 1, 0.2);
 }
