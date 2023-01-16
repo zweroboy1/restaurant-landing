@@ -1,2 +1,11 @@
 .features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 63px;
+
+  &__title {
+    margin: 15px 7px 0 0;
+    font-size: 48px;
+  }
 }
