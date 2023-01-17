@@ -8,4 +8,30 @@
     margin: 15px 7px 0 0;
     font-size: 48px;
   }
+
+  &__container {
+    display: flex;
+    gap: 117px;
+    margin-top: 3px;
+  }
+
+  &__service {
+    width: 245px;
+    text-align: center;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 193px;
+    padding-bottom: 52px;
+    background-image: url("../images/circle.svg");
+    background-repeat: no-repeat;
+    background-position: 86px 91px;
+  }
+
+  &__service-title {
+    margin-bottom: 19px;
+  }
 }

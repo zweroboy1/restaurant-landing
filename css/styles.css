@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -75,6 +76,15 @@ body {
   color: #3f3232;
 }
 
+.smaller-text {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 29px;
+  color: #3f3232;
+}
+
 .orange-text {
   font-family: "Gilroy";
   font-weight: 600;
@@ -88,6 +98,23 @@ body {
   font-weight: 700;
   font-size: 52px;
   line-height: 60px;
+  color: #2e2e2e;
+}
+
+.h4 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2e2e2e;
+}
+
+.h4-dish {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
   color: #2e2e2e;
 }
 
@@ -106,6 +133,10 @@ body {
   border: 0;
   border-radius: 31px;
   box-shadow: 0px 20px 40px rgba(255, 148, 1, 0.2);
+}
+
+.yellow-bg {
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
 }
 
 .header {
@@ -273,7 +304,6 @@ body {
   display: flex;
   flex-direction: row-reverse;
   height: 686px;
-  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
 }
 
 .about__course {
@@ -339,5 +369,86 @@ body {
 .features__title {
   margin: 15px 7px 0 0;
   font-size: 48px;
+}
+
+.features__container {
+  display: flex;
+  gap: 117px;
+  margin-top: 3px;
+}
+
+.features__service {
+  width: 245px;
+  text-align: center;
+}
+
+.features__img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 193px;
+  padding-bottom: 52px;
+  background-image: url("../images/circle.svg");
+  background-repeat: no-repeat;
+  background-position: 86px 91px;
+}
+
+.features__service-title {
+  margin-bottom: 19px;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 145px;
+}
+
+.recipes__subtitle {
+  position: relative;
+  left: -10px;
+  margin: 88px 0 15px;
+}
+
+.recipes__title {
+  font-size: 48px;
+}
+
+.recipes__container {
+  display: flex;
+  gap: 54px;
+  margin-top: 70px;
+}
+
+.recipes__item {
+  width: 354px;
+  height: 362px;
+  padding: 12px 12px;
+  border-radius: 8px;
+  box-shadow: 0px 40px 80px rgba(255, 148, 1, 0.15);
+  /*
+    &-title {
+    }
+
+    &-rating {
+    }
+
+    &-add {
+    }
+
+    &-price {
+    }
+    */
+}
+
+.recipes__item-img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.recipes__item-div1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
