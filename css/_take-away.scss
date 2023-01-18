@@ -1,2 +1,54 @@
 .take-away {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 100px;
+
+  &__dessert-line {
+    position: absolute;
+    top: 70px;
+    left: 174px;
+    filter: drop-shadow(0px 20px 40px rgba(255, 148, 1, 0.15));
+  }
+
+  &__dessert {
+    position: absolute;
+    top: 121px;
+    left: 234px;
+  }
+  &__phones {
+    position: absolute;
+    top: 57px;
+    left: 482px;
+  }
+
+  &__text-container {
+    margin: 159px 211px 0 0;
+    width: 444px;
+  }
+
+  &__title {
+    margin-top: 25px;
+    font-size: 48px;
+  }
+
+  &__text {
+    margin-top: 16px;
+    font-weight: 500;
+  }
+
+  &__downloads {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    padding-left: 2px;
+  }
+
+  &__apple {
+    margin-top: 5px;
+  }
+
+  &__google {
+    margin: 3px 0 0 23px;
+  }
 }
