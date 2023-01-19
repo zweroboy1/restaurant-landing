@@ -1,2 +1,45 @@
 .footer {
+  height: 377px;
+  padding: 87px 0 0 259px;
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+
+  &__upper-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left-container {
+    display: flex;
+  }
+
+  &__title {
+    position: relative;
+    top: -4px;
+    left: 6px;
+  }
+
+  &__links-container {
+    display: flex;
+    width: 756px;
+    margin-right: 216px;
+  }
+
+  &__links-column:nth-child(1) {
+    margin-right: 106px;
+  }
+  &__links-column:nth-child(2) {
+    margin-right: 105px;
+  }
+
+  &__link-list {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  &__link {
+    margin: 21px 0 25px;
+  }
 }

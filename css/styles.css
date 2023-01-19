@@ -35,6 +35,13 @@
   font-weight: 500;
 }
 
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-MediumItalic.woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
 html {
   font-size: 100%;
 }
@@ -174,6 +181,56 @@ body {
 
 .yellow-bg {
   background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+
+.quote-text {
+  font-family: "Circular Std";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #3f3232;
+}
+
+.name-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2e2e2e;
+}
+
+.small-text {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 22px;
+  color: #675959;
+}
+
+.footer-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2e2e2e;
+}
+
+.footer-link {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #6a5c5c;
+}
+
+.s-16 {
+  font-size: 16px;
 }
 
 .header {
@@ -556,5 +613,117 @@ body {
 
 .take-away__google {
   margin: 3px 0 0 23px;
+}
+
+.testimonial {
+  position: relative;
+}
+
+.testimonial__container {
+  width: 353px;
+  margin: 266px 0 227px 215px;
+}
+
+.testimonial__title {
+  margin-top: 25px;
+  font-size: 48px;
+}
+
+.testimonial__quote {
+  margin-top: 28px;
+}
+
+.testimonial__author-container {
+  margin-top: 60px;
+  display: flex;
+}
+
+.testimonial__author-left {
+  width: 300px;
+}
+
+.testimonial__author-right {
+  position: relative;
+}
+
+.testimonial__position {
+  margin-top: 4px;
+}
+
+.testimonial__arrow-left {
+  position: absolute;
+  top: 25px;
+  left: 6px;
+}
+
+.testimonial__arrow-right {
+  position: absolute;
+  top: 16px;
+  left: 26px;
+}
+
+.testimonial__soup-bg {
+  position: absolute;
+  top: -75px;
+  left: 710px;
+}
+
+.testimonial__soup {
+  position: absolute;
+  top: -31px;
+  left: 772px;
+}
+
+.testimonial__sauce {
+  position: absolute;
+  top: -30px;
+  left: 1031px;
+}
+
+.footer {
+  height: 377px;
+  padding: 87px 0 0 259px;
+  background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+
+.footer__upper-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__left-container {
+  display: flex;
+}
+
+.footer__title {
+  position: relative;
+  top: -4px;
+  left: 6px;
+}
+
+.footer__links-container {
+  display: flex;
+  width: 756px;
+  margin-right: 216px;
+}
+
+.footer__links-column:nth-child(1) {
+  margin-right: 106px;
+}
+
+.footer__links-column:nth-child(2) {
+  margin-right: 105px;
+}
+
+.footer__link-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footer__link {
+  margin: 21px 0 25px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -35,6 +35,13 @@
   font-weight: 500;
 }
 
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-MediumItalic.woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
 html {
   font-size: 100%;
 }
@@ -173,4 +180,54 @@ body {
 
 .yellow-bg {
   background: linear-gradient(180deg, rgba(255, 148, 1, 0.05) 0%, rgba(255, 237, 211, 0) 100%);
+}
+
+.quote-text {
+  font-family: "Circular Std";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #3f3232;
+}
+
+.name-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2e2e2e;
+}
+
+.small-text {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 22px;
+  color: #675959;
+}
+
+.footer-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2e2e2e;
+}
+
+.footer-link {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #6a5c5c;
+}
+
+.s-16 {
+  font-size: 16px;
 }

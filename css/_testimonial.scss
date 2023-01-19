@@ -1,2 +1,64 @@
 .testimonial {
+  position: relative;
+
+  &__container {
+    width: 353px;
+    margin: 266px 0 227px 215px;
+  }
+
+  &__title {
+    margin-top: 25px;
+    font-size: 48px;
+  }
+
+  &__quote {
+    margin-top: 28px;
+  }
+
+  &__author-container {
+    margin-top: 60px;
+    display: flex;
+  }
+
+  &__author-left {
+    width: 300px;
+  }
+
+  &__author-right {
+    position: relative;
+  }
+
+  &__position {
+    margin-top: 4px;
+  }
+
+  &__arrow-left {
+    position: absolute;
+    top: 25px;
+    left: 6px;
+  }
+
+  &__arrow-right {
+    position: absolute;
+    top: 16px;
+    left: 26px;
+  }
+
+  &__soup-bg {
+    position: absolute;
+    top: -75px;
+    left: 710px;
+  }
+
+  &__soup {
+    position: absolute;
+    top: -31px;
+    left: 772px;
+  }
+
+  &__sauce {
+    position: absolute;
+    top: -30px;
+    left: 1031px;
+  }
 }
