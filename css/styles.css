@@ -715,6 +715,10 @@ body {
   margin-right: 105px;
 }
 
+.footer__links-column:nth-child(3) {
+  margin-right: 105px;
+}
+
 .footer__link-list {
   box-sizing: border-box;
   display: flex;
