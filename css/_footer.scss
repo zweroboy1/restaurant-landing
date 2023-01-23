@@ -10,12 +10,40 @@
 
   &__left-container {
     display: flex;
+    flex-direction: column;
+  }
+
+  &__logo-container {
+    display: flex;
   }
 
   &__title {
     position: relative;
     top: -4px;
     left: 6px;
+  }
+
+  &__envelope-img {
+    position: relative;
+    top: 7px;
+  }
+
+  &__globe-img {
+    position: relative;
+    top: 5px;
+  }
+
+  &__line {
+    display: flex;
+    margin: 21px 0 0;
+  }
+
+  &__mail {
+    margin-left: 13px;
+  }
+
+  &__site {
+    margin: 2px 0 0 15px;
   }
 
   &__links-container {
@@ -44,5 +72,15 @@
 
   &__link {
     margin: 21px 0 25px;
+  }
+
+  &__copyright {
+    margin: 46px 259px 0 0;
+    text-align: center;
+    font-family: "Circular Std";
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 120%;
+    color: #685d5d;
   }
 }
