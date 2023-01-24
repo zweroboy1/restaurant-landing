@@ -14,21 +14,18 @@
     position: absolute;
     top: 87px;
     left: 242px;
-    filter: drop-shadow(0px 40px 80px rgba(255, 148, 1, 0.15));
   }
 
   &__ketchup {
     position: absolute;
     top: 72px;
     left: 5px;
-    filter: drop-shadow(0px 10px 20px rgba(255, 148, 1, 0.15));
   }
 
   &__play-bg {
     position: absolute;
     top: 371px;
     left: 720px;
-    filter: drop-shadow(0px 10px 20px rgba(255, 148, 1, 0.15));
     cursor: pointer;
   }
 
@@ -36,6 +33,7 @@
     position: absolute;
     top: 401px;
     left: 754px;
+    cursor: pointer;
   }
 
   &__text-container {

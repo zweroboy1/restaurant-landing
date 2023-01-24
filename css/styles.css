@@ -56,6 +56,7 @@ body {
   min-height: 4927px;
   margin: 0 auto;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .logo-text {
@@ -253,6 +254,52 @@ body {
   left: 1076px;
 }
 
+.img-deco2 {
+  position: absolute;
+  top: 1541px;
+  left: 0px;
+}
+
+.img-deco3 {
+  position: absolute;
+  top: 1507px;
+  right: 0px;
+}
+
+.img-deco4 {
+  position: absolute;
+  top: 2989px;
+  right: 0px;
+}
+
+.img-deco5 {
+  position: absolute;
+  bottom: 317px;
+  right: 0px;
+}
+
+.img-deco6 {
+  position: absolute;
+  top: 0px;
+  left: 684px;
+}
+
+.img-deco7 {
+  position: absolute;
+  top: 2983px;
+  left: 0px;
+}
+
+.img-deco8 {
+  position: absolute;
+  bottom: 32px;
+  left: 0px;
+}
+
+.shadow {
+  filter: drop-shadow(0px 20px 40px rgba(255, 148, 1, 0.15));
+}
+
 .header {
   padding: 50px 214px 0 215px;
   display: flex;
@@ -430,21 +477,18 @@ body {
   position: absolute;
   top: 87px;
   left: 242px;
-  filter: drop-shadow(0px 40px 80px rgba(255, 148, 1, 0.15));
 }
 
 .about__ketchup {
   position: absolute;
   top: 72px;
   left: 5px;
-  filter: drop-shadow(0px 10px 20px rgba(255, 148, 1, 0.15));
 }
 
 .about__play-bg {
   position: absolute;
   top: 371px;
   left: 720px;
-  filter: drop-shadow(0px 10px 20px rgba(255, 148, 1, 0.15));
   cursor: pointer;
 }
 
@@ -452,6 +496,7 @@ body {
   position: absolute;
   top: 401px;
   left: 754px;
+  cursor: pointer;
 }
 
 .about__text-container {
