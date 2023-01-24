@@ -50,6 +50,7 @@ body {
 }
 
 .wrapper {
+  position: relative;
   width: 1600px;
   min-height: 4927px;
   margin: 0 auto;
@@ -239,10 +240,14 @@ body {
   text-decoration-thickness: 2px;
   text-decoration-color: #6a5c5c;
   font-size: 16px;
-
-  //border-bottom: 2px solid;
 }
 
 .s-16 {
   font-size: 16px;
+}
+
+.img-deco1 {
+  position: absolute;
+  top: 2314px;
+  left: 1076px;
 }
